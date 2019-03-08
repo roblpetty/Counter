@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 public class CounterTest {
 
     @Test
-    public void checkPrint3() {
+    public void checkPrint() {
         assertEquals("Fizz", Counter.getString(3));
         assertEquals("Fizz", Counter.getString(63));
         assertEquals("Fizz", Counter.getString(99));
